@@ -1,9 +1,9 @@
 # RTU nodarbību kalendārs (iCal)
 
 Automātiski ik pēc 2 stundām nolasa [nodarbibas.rtu.lv](https://nodarbibas.rtu.lv/) grafiku
-(RTU Rēzeknes akadēmija, Lāzertehnoloģijas ENML0, 1. kurss, 1. grupa) un publicē to kā `.ics` failu GitHub Pages.
+(RTU Rēzeknes akadēmija, Lāzertehnoloģijas ENML0, 1. kurss, 1. grupa) un saglabā to kā `docs/rtu.ics`.
 
-**Abonēšanas saite:** `https://<lietotājs>.github.io/rtu-kalendars/rtu.ics`
+**Abonēšanas saite:** `https://raw.githubusercontent.com/rkroicsLTG/rtu-kalendars/main/docs/rtu.ics`
 
 ## iPhone
 Iestatījumi → Kalendārs → Konti → Pievienot kontu → Cits → **Pievienot abonētu kalendāru** → ielīmē saiti
