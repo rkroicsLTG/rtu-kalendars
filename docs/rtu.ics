@@ -1,0 +1,1173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//rtu-kalendars//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RTU nodarbības
+X-WR-TIMEZONE:Europe/Riga
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:Europe/Riga
+BEGIN:STANDARD
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1777843@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20260917T143000
+DTEND;TZID=Europe/Riga:20260917T160500
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Atbrīvošanas aleja 115 - 121
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Atb. 115-121
+END:VEVENT
+BEGIN:VEVENT
+UID:1788385@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20260918T181500
+DTEND;TZID=Europe/Riga:20260918T195000
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Kangro\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793687@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20260929T181500
+DTEND;TZID=Europe/Riga:20260929T195000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793688@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20260929T201500
+DTEND;TZID=Europe/Riga:20260929T215000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788329@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261003T101500
+DTEND;TZID=Europe/Riga:20261003T115000
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788330@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261003T123000
+DTEND;TZID=Europe/Riga:20261003T140500
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788307@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261003T143000
+DTEND;TZID=Europe/Riga:20261003T160500
+SUMMARY:Pr.d. Lāzertehnika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788308@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261003T163000
+DTEND;TZID=Europe/Riga:20261003T180500
+SUMMARY:Pr.d. Lāzertehnika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788588@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261003T181500
+DTEND;TZID=Europe/Riga:20261003T195000
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\nTelpa: Atb. 115 (008)-114
+END:VEVENT
+BEGIN:VEVENT
+UID:1788301@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261004T101500
+DTEND;TZID=Europe/Riga:20261004T115000
+SUMMARY:Lekc. Lāzertehnika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788302@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261004T123000
+DTEND;TZID=Europe/Riga:20261004T140500
+SUMMARY:Lekc. Lāzertehnika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788303@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261004T143000
+DTEND;TZID=Europe/Riga:20261004T160500
+SUMMARY:Lekc. Lāzertehnika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793698@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261006T181500
+DTEND;TZID=Europe/Riga:20261006T195000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793689@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261006T201500
+DTEND;TZID=Europe/Riga:20261006T215000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1777845@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261009T090000
+DTEND;TZID=Europe/Riga:20261009T170000
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Atbrīvošanas aleja 115 - 222
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Atb. 115-222
+END:VEVENT
+BEGIN:VEVENT
+UID:1788349@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261010T101500
+DTEND;TZID=Europe/Riga:20261010T115000
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1788350@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261010T123000
+DTEND;TZID=Europe/Riga:20261010T140500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1788351@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261010T143000
+DTEND;TZID=Europe/Riga:20261010T160500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1788352@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261010T163000
+DTEND;TZID=Europe/Riga:20261010T180500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1788421@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261011T101500
+DTEND;TZID=Europe/Riga:20261011T115000
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788422@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261011T123000
+DTEND;TZID=Europe/Riga:20261011T140500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788423@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261011T143000
+DTEND;TZID=Europe/Riga:20261011T160500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793690@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261013T181500
+DTEND;TZID=Europe/Riga:20261013T195000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793691@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261013T201500
+DTEND;TZID=Europe/Riga:20261013T215000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788331@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261017T101500
+DTEND;TZID=Europe/Riga:20261017T115000
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788332@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261017T123000
+DTEND;TZID=Europe/Riga:20261017T140500
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788311@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261017T143000
+DTEND;TZID=Europe/Riga:20261017T160500
+SUMMARY:Pr.d. Lāzertehnika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788312@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261017T163000
+DTEND;TZID=Europe/Riga:20261017T180500
+SUMMARY:Pr.d. Lāzertehnika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788589@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261017T181500
+DTEND;TZID=Europe/Riga:20261017T195000
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\nTelpa: Atb. 115 (008)-114
+END:VEVENT
+BEGIN:VEVENT
+UID:1788353@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261018T101500
+DTEND;TZID=Europe/Riga:20261018T115000
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788354@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261018T123000
+DTEND;TZID=Europe/Riga:20261018T140500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788355@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261018T143000
+DTEND;TZID=Europe/Riga:20261018T160500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788356@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261018T163000
+DTEND;TZID=Europe/Riga:20261018T180500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793692@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261020T181500
+DTEND;TZID=Europe/Riga:20261020T195000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793693@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261020T201500
+DTEND;TZID=Europe/Riga:20261020T215000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788440@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261022T181500
+DTEND;TZID=Europe/Riga:20261022T195000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788444@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261022T201500
+DTEND;TZID=Europe/Riga:20261022T215000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788472@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261023T123000
+DTEND;TZID=Europe/Riga:20261023T140500
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788473@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261023T143000
+DTEND;TZID=Europe/Riga:20261023T160500
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788498@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261023T163000
+DTEND;TZID=Europe/Riga:20261023T180500
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: E.Zaicevs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788499@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261023T181500
+DTEND;TZID=Europe/Riga:20261023T195000
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: E.Zaicevs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788335@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261024T101500
+DTEND;TZID=Europe/Riga:20261024T115000
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788336@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261024T123000
+DTEND;TZID=Europe/Riga:20261024T140500
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788318@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261024T143000
+DTEND;TZID=Europe/Riga:20261024T160500
+SUMMARY:Lekc\, Pr.d. Cietvielu fizika
+LOCATION:Atbrīvošanas aleja 115 - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788319@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261024T163000
+DTEND;TZID=Europe/Riga:20261024T180500
+SUMMARY:Lekc\, Pr.d. Cietvielu fizika
+LOCATION:Atbrīvošanas aleja 115 - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788386@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261025T101500
+DTEND;TZID=Europe/Riga:20261025T115000
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: E.Teirumnieks\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788387@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261025T123000
+DTEND;TZID=Europe/Riga:20261025T140500
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: E.Teirumnieks\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793694@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261027T181500
+DTEND;TZID=Europe/Riga:20261027T195000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793695@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261027T201500
+DTEND;TZID=Europe/Riga:20261027T215000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1777847@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261028T181500
+DTEND;TZID=Europe/Riga:20261028T195000
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1777846@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261028T201500
+DTEND;TZID=Europe/Riga:20261028T215000
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788333@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261031T101500
+DTEND;TZID=Europe/Riga:20261031T115000
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788334@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261031T123000
+DTEND;TZID=Europe/Riga:20261031T140500
+SUMMARY:Lab.d\, Pr.d. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788309@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261031T143000
+DTEND;TZID=Europe/Riga:20261031T160500
+SUMMARY:Pr.d. Lāzertehnika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788310@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261031T163000
+DTEND;TZID=Europe/Riga:20261031T180500
+SUMMARY:Pr.d. Lāzertehnika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788590@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261031T181500
+DTEND;TZID=Europe/Riga:20261031T195000
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\nTelpa: Atb. 115 (008)-114
+END:VEVENT
+BEGIN:VEVENT
+UID:1788304@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261101T101500
+DTEND;TZID=Europe/Riga:20261101T115000
+SUMMARY:Lekc. Lāzertehnika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788305@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261101T123000
+DTEND;TZID=Europe/Riga:20261101T140500
+SUMMARY:Lekc. Lāzertehnika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788306@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261101T143000
+DTEND;TZID=Europe/Riga:20261101T160500
+SUMMARY:Lekc. Lāzertehnika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793696@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261103T181500
+DTEND;TZID=Europe/Riga:20261103T195000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1793697@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261103T201500
+DTEND;TZID=Europe/Riga:20261103T215000
+SUMMARY:Lekc. Python programmēšana I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: S.Kodors\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788441@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261105T181500
+DTEND;TZID=Europe/Riga:20261105T195000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788445@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261105T201500
+DTEND;TZID=Europe/Riga:20261105T215000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788392@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261107T101500
+DTEND;TZID=Europe/Riga:20261107T115000
+SUMMARY:Pr.d. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788393@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261107T123000
+DTEND;TZID=Europe/Riga:20261107T140500
+SUMMARY:Pr.d. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788388@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261108T101500
+DTEND;TZID=Europe/Riga:20261108T115000
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: E.Teirumnieks\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788389@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261108T123000
+DTEND;TZID=Europe/Riga:20261108T140500
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: E.Teirumnieks\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788438@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261108T143000
+DTEND;TZID=Europe/Riga:20261108T160500
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788439@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261108T163000
+DTEND;TZID=Europe/Riga:20261108T180500
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788395@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261114T101500
+DTEND;TZID=Europe/Riga:20261114T115000
+SUMMARY:Pr.d. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788394@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261114T123000
+DTEND;TZID=Europe/Riga:20261114T140500
+SUMMARY:Pr.d. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Adijāns\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788591@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261114T181500
+DTEND;TZID=Europe/Riga:20261114T195000
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\nTelpa: Atb. 115 (008)-114
+END:VEVENT
+BEGIN:VEVENT
+UID:1788357@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261115T101500
+DTEND;TZID=Europe/Riga:20261115T115000
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788358@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261115T123000
+DTEND;TZID=Europe/Riga:20261115T140500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788359@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261115T143000
+DTEND;TZID=Europe/Riga:20261115T160500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788360@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261115T163000
+DTEND;TZID=Europe/Riga:20261115T180500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788442@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261119T181500
+DTEND;TZID=Europe/Riga:20261119T195000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788446@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261119T201500
+DTEND;TZID=Europe/Riga:20261119T215000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1777848@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261127T181500
+DTEND;TZID=Europe/Riga:20261127T195000
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Atbrīvošanas aleja 115 - 121
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Atb. 115-121
+END:VEVENT
+BEGIN:VEVENT
+UID:1777849@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261127T201500
+DTEND;TZID=Europe/Riga:20261127T215000
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Atbrīvošanas aleja 115 - 121
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Atb. 115-121
+END:VEVENT
+BEGIN:VEVENT
+UID:1788390@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261128T101500
+DTEND;TZID=Europe/Riga:20261128T115000
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: E.Teirumnieks\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788391@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261128T123000
+DTEND;TZID=Europe/Riga:20261128T140500
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: E.Teirumnieks\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788424@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261128T143000
+DTEND;TZID=Europe/Riga:20261128T160500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788425@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261128T163000
+DTEND;TZID=Europe/Riga:20261128T180500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1792015@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261129T101500
+DTEND;TZID=Europe/Riga:20261129T115000
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Kangro\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1792016@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261129T123000
+DTEND;TZID=Europe/Riga:20261129T140500
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Kangro\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1792017@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261129T143000
+DTEND;TZID=Europe/Riga:20261129T160500
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Kangro\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788443@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261203T181500
+DTEND;TZID=Europe/Riga:20261203T195000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788447@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261203T201500
+DTEND;TZID=Europe/Riga:20261203T215000
+SUMMARY:Lekc. Lāzertehnoloģijas I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788474@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261204T123000
+DTEND;TZID=Europe/Riga:20261204T140500
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788475@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261204T143000
+DTEND;TZID=Europe/Riga:20261204T160500
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788500@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261204T163000
+DTEND;TZID=Europe/Riga:20261204T180500
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: E.Zaicevs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788501@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261204T181500
+DTEND;TZID=Europe/Riga:20261204T195000
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: E.Zaicevs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788396@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261205T081500
+DTEND;TZID=Europe/Riga:20261205T095000
+SUMMARY:Lekc. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788397@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261205T101500
+DTEND;TZID=Europe/Riga:20261205T115000
+SUMMARY:Lekc. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788398@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261205T123000
+DTEND;TZID=Europe/Riga:20261205T140500
+SUMMARY:Lekc. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788399@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261206T081500
+DTEND;TZID=Europe/Riga:20261206T095000
+SUMMARY:Lekc. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788400@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261206T101500
+DTEND;TZID=Europe/Riga:20261206T115000
+SUMMARY:Lekc. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: L.Lazov\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788426@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261206T123000
+DTEND;TZID=Europe/Riga:20261206T140500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788427@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261206T143000
+DTEND;TZID=Europe/Riga:20261206T160500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1777850@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261211T181500
+DTEND;TZID=Europe/Riga:20261211T195000
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Atbrīvošanas aleja 115 - 121
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Atb. 115-121
+END:VEVENT
+BEGIN:VEVENT
+UID:1777851@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261211T201500
+DTEND;TZID=Europe/Riga:20261211T215000
+SUMMARY:Lekc. Inovāciju vadība
+LOCATION:Atbrīvošanas aleja 115 - 121
+DESCRIPTION:Pasniedzējs: O.Vindača\, A.Zvaigzne\nTelpa: Atb. 115-121
+END:VEVENT
+BEGIN:VEVENT
+UID:1792018@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261212T101500
+DTEND;TZID=Europe/Riga:20261212T115000
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Kangro\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1792019@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261212T123000
+DTEND;TZID=Europe/Riga:20261212T140500
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Kangro\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788428@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261212T143000
+DTEND;TZID=Europe/Riga:20261212T160500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788429@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261212T163000
+DTEND;TZID=Europe/Riga:20261212T180500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788361@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261213T101500
+DTEND;TZID=Europe/Riga:20261213T115000
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1788362@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261213T123000
+DTEND;TZID=Europe/Riga:20261213T140500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1788363@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261213T143000
+DTEND;TZID=Europe/Riga:20261213T160500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1788364@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261213T163000
+DTEND;TZID=Europe/Riga:20261213T180500
+SUMMARY:Lekc\, Pr.d. Kvantu mehānika un statiskā fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 118
+DESCRIPTION:Pasniedzējs: A.Martinovs\nTelpa: Atb. 115 (008)-118
+END:VEVENT
+BEGIN:VEVENT
+UID:1792020@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20261218T181500
+DTEND;TZID=Europe/Riga:20261218T195000
+SUMMARY:Lekc. Zinātniski pētnieciskā darba metodoloģija
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: I.Kangro\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788401@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270109T101500
+DTEND;TZID=Europe/Riga:20270109T115000
+SUMMARY:Eksām. Lāzertehnoloģijas I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\, L.Lazov\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788407@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270109T123000
+DTEND;TZID=Europe/Riga:20270109T140500
+SUMMARY:Eksām. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\, L.Lazov\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788405@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270109T143000
+DTEND;TZID=Europe/Riga:20270109T160500
+SUMMARY:Eksām. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\, L.Lazov\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788406@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270109T163000
+DTEND;TZID=Europe/Riga:20270109T180500
+SUMMARY:Eksām. Lāzerstarojuma un vielu mijiedarbības fizika I
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: I.Adijāns\, L.Lazov\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788430@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270110T101500
+DTEND;TZID=Europe/Riga:20270110T115000
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788431@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270110T123000
+DTEND;TZID=Europe/Riga:20270110T140500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788432@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270110T143000
+DTEND;TZID=Europe/Riga:20270110T160500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788433@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270110T163000
+DTEND;TZID=Europe/Riga:20270110T180500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Attālināti  - Teams
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Att. -Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:1788434@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270116T101500
+DTEND;TZID=Europe/Riga:20270116T115000
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788435@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270116T123000
+DTEND;TZID=Europe/Riga:20270116T140500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788436@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270116T143000
+DTEND;TZID=Europe/Riga:20270116T160500
+SUMMARY:Lekc. Cietvielu fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788437@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270116T163000
+DTEND;TZID=Europe/Riga:20270116T180500
+SUMMARY:Eksām. Cietvielu fizika
+LOCATION:Atbrīvošanas aleja 115 (008) - 112
+DESCRIPTION:Pasniedzējs: A.Pacejs\nTelpa: Atb. 115 (008)-112
+END:VEVENT
+BEGIN:VEVENT
+UID:1788592@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270116T181500
+DTEND;TZID=Europe/Riga:20270116T195000
+SUMMARY:Pr.d. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\nTelpa: Atb. 115 (008)-114
+END:VEVENT
+BEGIN:VEVENT
+UID:1788593@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270123T101500
+DTEND;TZID=Europe/Riga:20270123T115000
+SUMMARY:Eksām. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\, A.Pacejs\, E.Zaicevs\nTelpa: Atb. 
+ 115 (008)-114
+END:VEVENT
+BEGIN:VEVENT
+UID:1788594@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270123T123000
+DTEND;TZID=Europe/Riga:20270123T140500
+SUMMARY:Eksām. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\, A.Pacejs\, E.Zaicevs\nTelpa: Atb. 
+ 115 (008)-114
+END:VEVENT
+BEGIN:VEVENT
+UID:1788595@nodarbibas.rtu.lv
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Europe/Riga:20270123T143000
+DTEND;TZID=Europe/Riga:20270123T160500
+SUMMARY:Eksām. Tehniskā optika
+LOCATION:Atbrīvošanas aleja 115 (008) - 114
+DESCRIPTION:Pasniedzējs: D.Kļaviņš\, A.Pacejs\, E.Zaicevs\nTelpa: Atb. 
+ 115 (008)-114
+END:VEVENT
+END:VCALENDAR
