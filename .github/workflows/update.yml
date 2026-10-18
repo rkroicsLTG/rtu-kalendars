@@ -1,0 +1,43 @@
+name: Atjaunot RTU kalendāru
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # ik pēc 2 stundām
+  workflow_dispatch:          # manuāla palaišana no Actions cilnes
+  push:
+    branches: [main]
+    paths: ["generate.py", ".github/workflows/update.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-calendar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ģenerēt kalendāru
+        env:
+          RTU_PROGRAM_ID: "1939"   # Lāzertehnoloģijas (ENML0), RTU Rēzeknes akadēmija
+          RTU_COURSE: "1"          # nākamajā mācību gadā nomainīt uz 2
+          RTU_GROUP: "1"
+        run: python generate.py
+
+      - name: Saglabāt izmaiņas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Reizi mēnesī "keepalive", lai GitHub neatslēgtu grafiku pēc 60 dienu neaktivitātes
+          date +%Y-%m > .keepalive
+          git add docs/rtu.ics .keepalive
+          git diff --cached --quiet || git commit -m "Kalendāra atjaunināšana $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push
