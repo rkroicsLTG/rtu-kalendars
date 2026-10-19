@@ -12,6 +12,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from zoneinfo import ZoneInfo
@@ -36,8 +38,19 @@ def http(path, data=None):
             "Content-Type": "application/x-www-form-urlencoded",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8")
+    # RTU serveris dažkārt (īpaši naktīs) atbild lēni vai nepieejams – mēģina vairākas reizes
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return r.read().decode("utf-8")
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if isinstance(e, urllib.error.HTTPError) and e.code < 500:
+                raise
+            if attempt == 3:
+                raise
+            wait = 15 * (attempt + 1)
+            print(f"{path}: {e} – mēģinu vēlreiz pēc {wait} s", file=sys.stderr)
+            time.sleep(wait)
 
 
 def post_json(path, data):
@@ -215,4 +228,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        if isinstance(e, urllib.error.HTTPError) and e.code < 500:
+            raise
+        # Īslaicīga RTU servera nepieejamība nav kļūda – esošais kalendārs paliek, nākamā palaišana mēģinās vēlreiz
+        print(f"::warning::RTU serveris nav pieejams ({e}); kalendārs šoreiz netika atjaunots.")
+        sys.exit(0)
